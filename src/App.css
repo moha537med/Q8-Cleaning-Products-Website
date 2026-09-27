@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+a , button {
+    transition: 0.3s ease;
+}
+
+button {
+    padding: 10px 20px;
+    /* border: none; */
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 , h2 , h3 {
+    font-weight: bold;
+}
+
+/* img */
+
+.hero {
+    background-repeat: no-repeat;
+    transition:  0.5s ease-in-out;
+}
+

@@ -1,0 +1,37 @@
+:root {
+
+  /* ===== Brand ===== */
+  --primary: #163A6B;
+  --primary-dark: #0E2B52;
+  --primary-light: #3F6491;
+
+  /* ===== Accent ===== */
+  --accent-cyan: #55C7C2;
+  --accent-blue: #1b5668;
+
+  /* ===== Background ===== */
+  --bg-main: #F8FBFC;
+  --bg-section: #EDF7F8;
+  --white: #FFFFFF;
+
+  /* ===== Text ===== */
+  --txt-primary: #17263D;
+  --txt-secondary: #66758A;
+
+  /* ===== Extra Accents ===== */
+  --red: #E35D5D;
+  --yellow: #F1C64B;
+}
+
+html{
+  direction: rtl;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+body {
+  background-color: var(--bg-main);
+}
