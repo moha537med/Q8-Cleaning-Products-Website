@@ -9,7 +9,7 @@ const Products = () => {
   const [filteredType , setFilteredType] = useState("الكل");
   return (
     <>
-      <HeroSection image="../../public/images/products-hero.png" heading="منتجاتنا" text=" اكتشف مجموعاتنا من المنتجات">
+      <HeroSection image="/images/products-hero.png" heading="منتجاتنا" text=" اكتشف مجموعاتنا من المنتجات">
         {/* <div className={`cursor-pointer self-start rounded-md  text-(--primary-dark)  `}>
           <NavLink to={"/"}> الرئيسيه </NavLink> &gt; <NavLink to={"/products"}> منتجاتنا </NavLink>
         </div> */}

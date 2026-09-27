@@ -33,7 +33,7 @@ const AboutUsSection = () => {
 
             <div className="h-70 max-md:h-60 max-sm:h-52 w-[40%] max-md:w-full">
             <img
-                src="../../../public/images/منظف-زجاج-5.jpeg"
+                src="/images/منظف-زجاج-5.jpeg"
                 alt="about us image"
                 className="w-full h-full rounded-md object-cover"
             />

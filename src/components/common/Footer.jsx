@@ -25,7 +25,7 @@ function Footer() {
     <div className="flex flex-col gap-4 text-right">
       <a href="#" className="w-fit">
         <img
-          src="../../../public/images/logo-2.png"
+          src="/images/logo-2.png"
           alt="Q8 logo"
           className="w-18 h-18 object-contain"
         />

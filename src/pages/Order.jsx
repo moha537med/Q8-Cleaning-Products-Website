@@ -9,7 +9,7 @@ const Order = () => {
   const cartItems = useSelector((state)=> state.cartData.cart);
   return (
     <>
-    <HeroSection image="../../public/images/order-hero2.png" heading="طلباتي" text=" لديك استفسار عن احد منتجاتنا ؟ تواصل معنا و سنكون سعداء بسماعدتك">
+    <HeroSection image="/images/order-hero2.png" heading="طلباتي" text=" لديك استفسار عن احد منتجاتنا ؟ تواصل معنا و سنكون سعداء بسماعدتك">
         {/* <div className={`cursor-pointer self-start rounded-md  text-(--primary-dark)  `}>
           <NavLink to={"/"}> الرئيسيه </NavLink> &gt; <NavLink to={"/order"}> طلباتي </NavLink>
         </div> */}

@@ -8,7 +8,7 @@ const Home = () => {
 
   return (
     <>
-      <HeroSection image="../../public/images/hero-img11.jpeg"  heading= " كيو ايت تقدم لك  حلول التنظيف الفعالة لك و لعائلتك"  text="اكتشف مجموعه واسعة من منتاجاتنا الأمنة و المتطوره للنظافه المثاليه">
+      <HeroSection image="/images/hero-img11.jpeg"  heading= " كيو ايت تقدم لك  حلول التنظيف الفعالة لك و لعائلتك"  text="اكتشف مجموعه واسعة من منتاجاتنا الأمنة و المتطوره للنظافه المثاليه">
           {/* <div className={`cursor-pointer self-start rounded-md  text-(--primary)  `}>
             <NavLink to={"/order"}> تسوق الان </NavLink>
           </div> */}

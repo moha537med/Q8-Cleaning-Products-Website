@@ -6,7 +6,7 @@ import ContactForm from "../components/contact/ContactForm"
 const Contact = () => {
   return (
     <>
-      <HeroSection image="../../public/images/contact-hero2.png" heading="تواصل معنا" text="لديك استفسار عن احد منتجاتنا ؟ تواصل معنا و سنكون سعداء بسماعدتك">
+      <HeroSection image="/images/contact-hero2.png" heading="تواصل معنا" text="لديك استفسار عن احد منتجاتنا ؟ تواصل معنا و سنكون سعداء بسماعدتك">
 
       </HeroSection>
 

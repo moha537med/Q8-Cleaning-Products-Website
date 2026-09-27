@@ -27,7 +27,7 @@ function Header() {
         <div className="text-2xl font-bold text-(--primary)">
           <NavLink to="/">
             <img
-              src="../../../public/images/logo-2.png"
+              src="/images/logo-2.png"
               alt="q8 logo"
               className="w-30 h-15 sm:w-16 sm:h-16 lg:w-18 lg:h-18"
             />

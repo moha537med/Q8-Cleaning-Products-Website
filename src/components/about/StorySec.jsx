@@ -21,7 +21,7 @@ const StorySec = () => {
 
             <div className="w-full sm:w-[80%] md:w-[40%] h-60 sm:h-70 md:h-70">
                 <img
-                    src="../../../public/images/مطهر-ليمون-3.jpeg"
+                    src="/images/مطهر-ليمون-3.jpeg"
                     alt="about us image"
                     className="w-full h-full rounded-md object-cover"
                 />
