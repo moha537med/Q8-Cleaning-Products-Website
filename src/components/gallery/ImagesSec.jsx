@@ -40,20 +40,21 @@ const ImagesSec = ({ filteredType }) => {
                     transition-opacity duration-500"
                 /> </div>
 
-              <div className=" flex items-center justify-between gap-3 px-2 pt-4 pb-1 ">
-
-                <div>
-
-                  <h3 className=" text-(--primary) font-bold text-base sm:text-lg " >
+              <div className="flex items-start justify-between gap-2 px-2 pt-4 pb-1 min-h-[76px] sm:min-h-[82px]">
+                
+                <div className="min-w-0">
+                  <h3 className="text-(--primary) font-bold text-base sm:text-lg line-clamp-2">
                     {product.name}
                   </h3>
 
-                  <span className=" block w-8 h-1 mt-2 rounded-full bg-(--accent-cyan) transition-all duration-500 sm:group-hover:w-14 "/>
+                  <span className="block w-8 h-1 mt-2 rounded-full bg-(--accent-cyan) transition-all duration-500 sm:group-hover:w-14" />
                 </div>
 
                 <span
-                  className=" shrink-0 w-9 h-9 rounded-full bg-(--bg-section) text-(--primary)
-                    flex items-center justify-center text-sm font-bold transition-all duration-500 sm:group-hover:bg-(--accent-cyan) " >
+                  className="shrink-0 w-9 h-9 rounded-full bg-(--bg-section) text-(--primary)
+                    flex items-center justify-center text-sm font-bold transition-all duration-500
+                    sm:group-hover:bg-(--accent-cyan)"
+                >
                   {String(product.id).padStart(2, "0")}
                 </span>
 

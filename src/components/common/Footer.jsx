@@ -3,7 +3,7 @@ import { MdContactPhone } from "react-icons/md"
 import { NavLink } from "react-router-dom"
 
 const links = [
-  {name:"الرئيسيه" , link:"/"} , {name:"نبذه عنا" ,link: "/about"},
+  {name:"الرئيسية" , link:"/"} , {name:"نبذه عنا" ,link: "/about"},
   {name:"اتصل بنا" ,link: "/contact"}, { name: "المعرض", link: "/gallery" },
   {name:"المنتجات" , link:"products"} ,
   {name:"طلباتي" , link:"order"} ,
@@ -26,9 +26,9 @@ function Footer() {
     <div className="flex flex-col gap-4 text-right">
       <a href="#" className="w-fit">
         <img
-          src="/images/logo-2.png"
+          src="/images/logo.png"
           alt="Q8 logo"
-          className="w-18 h-18 object-contain"
+          className="w-30 h-15 object-contain"
         />
       </a>
 

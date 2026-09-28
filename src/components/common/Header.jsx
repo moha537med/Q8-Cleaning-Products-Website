@@ -11,7 +11,7 @@ function Header() {
   const cartItmes = useSelector(state => state.cartData.cart);
 
   const links = [
-    { name: "الرئيسيه", link: "/" },
+    { name: "الرئيسية", link: "/" },
     { name: "نبذه عنا", link: "/about" },
     { name: "اتصل بنا", link: "/contact" },
     { name: "المعرض", link: "/gallery" },
@@ -20,7 +20,6 @@ function Header() {
   ];
 
   return (
-    // <header className="p-3 sm:p-4 bg-(--txt-primary) text-(--bg-section) fixed top-0 left-0 w-full z-[10000]">
     <header className="p-3 sm:p-4 bg-(--txt-primary) text-(--bg-section) fixed top-0 w-full z-10000">
 
       <div className="container w-[90%] sm:w-[85%] lg:w-[80%] m-auto flex items-center justify-between gap-4 md:gap-6 text-(--white)">
@@ -28,7 +27,7 @@ function Header() {
         <div className="text-2xl font-bold text-(--primary)">
           <NavLink to="/">
             <img
-              src="/images/logo-2.png"
+              src="/images/logo.png"
               alt="q8 logo"
               className="w-30 h-15 sm:w-16 sm:h-16 lg:w-18 lg:h-18"
             />
