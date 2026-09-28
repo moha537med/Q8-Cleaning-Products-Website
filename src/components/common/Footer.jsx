@@ -4,7 +4,8 @@ import { NavLink } from "react-router-dom"
 
 const links = [
   {name:"الرئيسيه" , link:"/"} , {name:"نبذه عنا" ,link: "/about"},
-  {name:"اتصل بنا" ,link: "/contact"} , {name:"المنتجات" , link:"products"} ,
+  {name:"اتصل بنا" ,link: "/contact"}, { name: "المعرض", link: "/gallery" },
+  {name:"المنتجات" , link:"products"} ,
   {name:"طلباتي" , link:"order"} ,
 
 ]

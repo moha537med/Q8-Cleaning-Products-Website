@@ -1,6 +1,7 @@
 
 import products from "../../data/products"
 import { NavLink } from "react-router-dom"
+import ProductCard from "../common/ProductCard"
 
 
 
@@ -22,14 +23,12 @@ const PopularProductsSec = () => {
         </p>
     </div>
 
-    <div className="w-[80%] max-md:w-full self-center grid grid-cols-3 max-md:grid-cols-2 gap-5">
+    <div className="w-[60%] max-md:w-full self-center grid grid-cols-3 max-md:grid-cols-2 gap-5">
         {products?.length > 0 ? (
-            products.map((product) => (
-            <img
-                src={product.image}
-                alt={product.name}
+            products.slice(6,12).map((product) => (
+            <ProductCard
+                product={product}
                 key={product.id}
-                className="w-full h-85 max-sm:h-65 border-2 border-transparent object-cover rounded-sm transition duration-300 shadow-sm shadow-black hover:border-(--primary-dark)"
             />
             ))
         ) : (

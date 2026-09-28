@@ -1,6 +1,7 @@
 import { RiDeleteBin6Line } from "react-icons/ri";
 import { useDispatch, useSelector } from "react-redux";
 import { Decrement_Quantity, Increment_Quantity, Remove_Product } from "../../features/CartSlice";
+import { FaMinus, FaPlus } from "react-icons/fa";
 
 const CartProduct = ({ product, setShowMessage }) => {
 
@@ -91,7 +92,7 @@ const CartProduct = ({ product, setShowMessage }) => {
                         onClick={handleIncrementQuantity}
                         className="py-1.5 px-3 sm:py-2 sm:px-4 text-lg sm:text-xl border-0 transition duration-300 bg-(--primary-light)/15 text-(--primary) cursor-pointer hover:bg-(--primary-light)/30"
                     >
-                        +
+                        <FaPlus className="text-[12px]"/>
                     </button>
 
                     <span className="min-w-12 sm:min-w-14 flex items-center justify-center text-base sm:text-lg text-(--primary) py-1.5 px-3 sm:py-2 sm:px-4">
@@ -100,9 +101,9 @@ const CartProduct = ({ product, setShowMessage }) => {
 
                     <button
                         onClick={handleDecrementQuantity}
-                        className="py-1.5 px-3 sm:py-2 sm:px-4 text-lg sm:text-xl border-0 transition duration-300 bg-(--primary-light)/15 text-(--primary) cursor-pointer hover:bg-(--primary-light)/30"
+                        className="py-1.5 px-3 sm:py-2 sm:px-4 text-md sm:text-xl border-0 transition duration-300 bg-(--primary-light)/15 text-(--primary) cursor-pointer hover:bg-(--primary-light)/30"
                     >
-                        -
+                        <FaMinus className="text-[12px]"/>
                     </button>
 
                 </div>

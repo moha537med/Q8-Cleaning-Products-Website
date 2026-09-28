@@ -1,6 +1,7 @@
 // import { NavLink } from "react-router-dom"
 import HeroSection from "../components/common/HeroSection"
 import AboutUsSection from "../components/home/AboutUsSection"
+import PopularGallery from "../components/home/PopularGallery"
 import PopularProductsSec from "../components/home/PopularProductsSec"
 import WhyUsSec from "../components/home/WhyUsSec"
 
@@ -14,6 +15,7 @@ const Home = () => {
           </div> */}
       </HeroSection>
       <AboutUsSection />
+      <PopularGallery />
       <PopularProductsSec />
       <WhyUsSec />
     </>

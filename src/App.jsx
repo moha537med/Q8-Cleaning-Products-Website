@@ -9,20 +9,24 @@ import Products from "./pages/Products";
 import Order from "./pages/Order";
 import Contact from "./pages/Contact";
 import NotFoundPage from './pages/NotFoundPage';
+import Gallery from './pages/Gallery';
+import ScrollToTop from './components/common/ScrollToTop';
 
 const App = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <Routes>
 
         {/* Public Website */}
         <Route element={<MainLayout />}>
-
           <Route path="/" element={<Home />} />
 
           <Route path="/about" element={<About />} />
 
           <Route path="/products" element={<Products />} />
+
+          <Route path="/gallery" element={<Gallery />} />
 
           <Route path="/order" element={<Order />} />
 

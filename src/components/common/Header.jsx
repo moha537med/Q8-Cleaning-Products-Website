@@ -14,6 +14,7 @@ function Header() {
     { name: "الرئيسيه", link: "/" },
     { name: "نبذه عنا", link: "/about" },
     { name: "اتصل بنا", link: "/contact" },
+    { name: "المعرض", link: "/gallery" },
     { name: "المنتجات", link: "/products" },
     { name: "الطلبات", link: "/order" },
   ];

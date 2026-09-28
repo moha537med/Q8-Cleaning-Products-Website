@@ -1,6 +1,7 @@
 // import { NavLink } from "react-router-dom"
+import { ShoppingCart } from "lucide-react"
+import CtaSec from "../components/common/CtaSec"
 import HeroSection from "../components/common/HeroSection"
-import CtaSec from "../components/orders/CtaSec"
 import CartItemSec from "../components/orders/CartItemSec"
 import OrderCTA from "../components/orders/OrderCTA"
 import { useSelector } from "react-redux"
@@ -27,7 +28,9 @@ const Order = () => {
       </> 
       
     : 
-    <CtaSec/>
+    <CtaSec heading=" لا توجد منتجات في طلبك" desc=" اضف المنتجات التي تحتاجها من صفحه المنتجات ثم عد لارسال طلبك" linkText=" تصفح المنتجات" linkPath="/products">
+      {<ShoppingCart />}
+    </CtaSec>
     }
 
     
