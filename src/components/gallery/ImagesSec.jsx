@@ -7,7 +7,7 @@ const ImagesSec = ({ filteredType }) => {
       : products.filter((product) => product.catogrey === filteredType);
 
   return (
-    <section className="w-[90%] sm:w-[85%] lg:w-[70%] m-auto py-8 sm:py-10 lg:py-12">
+    <section className="w-[90%] sm:w-[85%] lg:w-[70%] m-auto mb-30 py-8 sm:py-10 lg:py-12">
 
       {filteredProducts?.length > 0 ? (
         <div className="grid grid-cols-2  lg:grid-cols-3 gap-6 lg:gap-8">

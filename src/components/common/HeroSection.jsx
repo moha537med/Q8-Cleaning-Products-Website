@@ -13,7 +13,7 @@ const HeroSection = ({image, heading, text, textColor = "text-white", children})
 
       <div className="flex flex-col sm:items-center md:items-start mr-15 gap-10 w-[80%] z-50 max-lg:mr-10 max-md:mr-0 max-md:w-[90%] max-md:gap-6 " >
         <h1
-          className={`  max-md:text-center md:w-1/2 leading-20 text-6xl max-lg:text-5xl max-md:w-full max-md:text-4xl max-md:leading-12 max-sm:text-3xl max-sm:leading-10 ${textColor} md:text-(--primary-dark) `}>
+          className={`  max-md:text-center md:w-1/2 leading-20 text-3xl lg:text-5xl max-md:w-full md:text-4xl max-md:leading-12 sm:text-3xl max-sm:leading-10 ${textColor} md:text-(--primary-dark) `}>
           {heading}
         </h1>
 

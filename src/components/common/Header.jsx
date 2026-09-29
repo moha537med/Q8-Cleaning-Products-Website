@@ -27,9 +27,9 @@ function Header() {
         <div className="text-2xl font-bold text-(--primary)">
           <NavLink to="/">
             <img
-              src="/images/logo.png"
+              src="/images/logo1.png"
               alt="q8 logo"
-              className="w-30 h-15 sm:w-16 sm:h-16 lg:w-18 lg:h-18"
+              className="w-35 h-25 sm:w-25  lg:w-30 "
             />
           </NavLink>
         </div>
@@ -83,7 +83,7 @@ function Header() {
         onClick={()=> setIsMenuOpen(!isMenuOpen)}
         />
 
-        <ul className={`md:hidden absolute z-10001 top-20 left-0 w-full min-h-full py-5 px-10  bg-(--txt-primary) flex flex-col items-end gap-8 text-lg
+        <ul className={`md:hidden absolute z-10001 top-30 left-0 w-full min-h-full pb-5 pl-10 sm:pl-17 bg-(--txt-primary) flex flex-col items-end gap-8 text-lg
          text-(--white) ${isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"} transform transition duration-300`}>
             {links.map(link => {
 
