@@ -28,7 +28,7 @@ function Footer() {
         <img
           src="/images/logo.png"
           alt="Q8 logo"
-          className="w-30 h-15 object-contain"
+          className="w-35 h-25 sm:w-25  lg:w-30 "
         />
       </a>
 
